@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\Gameplay\World\Chunks.cpp" />
+    <ClCompile Include="Source\Gameplay\World\ChunkMesh.cpp" />
+    <ClCompile Include="Source\Core\ModuleSystem\ModuleSystem.cpp" />
+    <ClCompile Include="Source\Gameplay\GameplayModule.cpp" />
+    <ClCompile Include="Source\Core\Renderer\Shaders\MeshShader.cpp" />
+    <ClCompile Include="Source\Gameplay\Player.cpp" />
+    <ClCompile Include="Source\Core\Renderer\Mesh.cpp" />
+    <ClCompile Include="Source\Core\Renderer\Camera.cpp" />
+    <ClCompile Include="Source\Core\Renderer\Renderer.cpp" />
+    <ClCompile Include="Source\Core\Application.cpp" />
+    <ClCompile Include="Source\Core\Renderer\Shaders\BaseShader.cpp" />
+    <ClCompile Include="Source\Core\Events\EventSystem.cpp" />
+    <ClCompile Include="Source\Main.cpp" />
+    <ClCompile Include="Source\Core\Renderer\Texture.cpp" />
+    <ClCompile Include="Source\Gameplay\World\World.cpp" />
+    <ClCompile Include="ThirdParty\ImGui\imgui_demo.cpp">
+      <Filter>ImguiPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_draw.cpp">
+      <Filter>ImguiPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_impl_glfw.cpp">
+      <Filter>ImguiPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_impl_opengl3.cpp">
+      <Filter>ImguiPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_tables.cpp">
+      <Filter>ImguiPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\ImGui\imgui_widgets.cpp">
+      <Filter>ImguiPrivate</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gameplay\UI\GameUI.cpp" />
+    <ClCompile Include="ThirdParty\ImGui\imgui.cpp">
+      <Filter>ImguiPrivate</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Gameplay\World\Chunks.h" />
+    <ClInclude Include="Source\Gameplay\World\ChunkMesh.h" />
+    <ClInclude Include="Source\Core\CoreTypes.h" />
+    <ClInclude Include="Source\Core\Events\InputTypes.h" />
+    <ClInclude Include="Source\Core\ModuleSystem\ModuleSystem.h" />
+    <ClInclude Include="Source\Gameplay\GameplayModule.h" />
+    <ClInclude Include="Source\Core\ModuleSystem\BaseModule.h" />
+    <ClInclude Include="Source\Core\Renderer\Shaders\MeshShader.h" />
+    <ClInclude Include="Source\Gameplay\Player.h" />
+    <ClInclude Include="Source\Core\Renderer\Mesh.h" />
+    <ClInclude Include="Source\Core\Renderer\Camera.h" />
+    <ClInclude Include="Source\Core\GL.h" />
+    <ClInclude Include="Source\Core\Renderer\Renderer.h" />
+    <ClInclude Include="Source\Core\Application.h" />
+    <ClInclude Include="Source\Core\Renderer\Shaders\BaseShader.h" />
+    <ClInclude Include="Source\Core\Events\EventSystem.h" />
+    <ClInclude Include="Source\Core\Renderer\Texture.h" />
+    <ClInclude Include="Source\Gameplay\World\BlockTypes.h" />
+    <ClInclude Include="Source\Gameplay\World\World.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui_impl_glfw.h">
+      <Filter>ImguiPublic</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\ImGui\imgui_impl_opengl3.h">
+      <Filter>ImguiPublic</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\ImGui\imgui_impl_opengl3_loader.h">
+      <Filter>ImguiPublic</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\ImGui\imgui_internal.h">
+      <Filter>ImguiPublic</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\ImGui\imconfig.h">
+      <Filter>ImguiPublic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gameplay\UI\GameUI.h" />
+    <ClInclude Include="Source\Core\Utils.h" />
+    <ClInclude Include="Source\Gameplay\BlocksData.h" />
+    <ClInclude Include="ThirdParty\ImGui\imgui.h">
+      <Filter>ImguiPublic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\img.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".clang-format" />
+    <None Include="Source\Core\Renderer\Shaders\ShaderCode\Mesh.glslf" />
+    <None Include="Source\Core\Renderer\Shaders\ShaderCode\Mesh.glslv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ImguiPublic">
+      <UniqueIdentifier>{4214e449-94a6-49f9-8d14-f296e7ec551f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ImguiPrivate">
+      <UniqueIdentifier>{a00058e9-589b-4af1-91f3-d0799111d0be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
